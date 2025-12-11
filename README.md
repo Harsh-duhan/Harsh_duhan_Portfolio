@@ -1,72 +1,102 @@
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-> https://varadbhogayata.github.io
+# Harsh Duhan | Software Developer Portfolio
 
-![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
-![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/varadbhogayata/varadbhogayata.github.io/commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://varadbhogayata.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/varadbhogayata/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+Hi, I'm **Harsh Duhan**, a passionate and self-driven software developer.
 
-### Website Preview
-<p align="center"> 
-  <kbd>
-    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
-  </a>
-  </kbd>
-</p>
+I enjoy problem-solving and coding, and I am committed to bringing 100% to the work I do. My focus is on backend development and building robust, scalable digital solutions. I am a Master in Computer Application Student at Baba Mastnath University.
 
-:star: Star me on GitHub — it helps!
+I am currently seeking a challenging position that combines my skills in Software Engineering, providing opportunities for professional development and personal growth.
 
-## Features 📋
-⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Typing animation using `Typed.js`\
-⚡️ Easy to modify
+---
 
-## Installation & Deployment 📦
-- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
-- Add or remove images from `varadbhogayata.github.io/assets/img/` directory as per your requirement.
-- I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to deploy the website the EASIEST WAY.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
-- Push the generated code to the `master` branch of this repository.
-- <b>NOTE:</b> Make sure to set `analyticsId` from your Google Analytics account inside the Google Analytics script tag, if you want to use your own Google Analytics account.
+### ** Key Skills and Technologies**
 
-## Sections 📚
-✔️ About me\
-✔️ Experience\
-✔️ Projects \
-✔️ Skills \
-✔️ Education\
-✔️ Contact Info\
-✔️ Resume
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | Python, C, HTML\CSS, JavaScript, Bash |
+| **Databases** | MySQL, MongoDB |
+| **Frameworks** | **Django** (Primary Focus) |
+| **Tools & Cloud**| Git, Github, Docker, AWS, Linux |
 
-To view a live example, **[click here](https://varadbhogayata.github.io/)**
+---
 
-## Tools Used 🛠️
-* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
-* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
-* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
+## **Featured Projects**
 
-## Contributing 💡
-#### Step 1
+### **1. Galvanic Music Player Web App**
 
-- **Option 1**
-    - 🍴 Fork this repo!
+A full-stack, feature-rich music streaming web application built using the Django framework.
 
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
+* **Live Demo:** [https://galvanic-music.herokuapp.com/](https://galvanic-music.herokuapp.com/)
+* **Repository:** [Music Player Source Code](https://github.com/Harsh-duhan/Music_Player/tree/main/music_player)
+* **Technologies:** Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku
 
+**Key Features:**
 
-#### Step 2
+* Secure **Google OAuth** and standard user SignUp/SignIn.
+* Dynamic functionality to play songs and view detailed information.
+* Advanced search and filtering of songs based on **language** and **singer**.
+* Personalized content management (create/manage playlists, add/remove favorites).
+* Tracks and displays **recently played/viewed songs**.
 
-- **Build your code** 🔨🔨🔨
+#### *Project Preview*
+| Home Page | Detail Page |
+| :---: | :---: |
+| <img src="website_images/Home.png" width="400"> | <img src="website_images/Detail.png" width="400"> |
 
-#### Step 3
+### **2. Video Manager (CLI Application)**
 
-- 🔃 Create a new pull request.
+A Command-Line-Interface application built with Python to manage videos locally.
 
-## License 📄
+* **Repository:** [Video Manager Source Code](https://github.com/Harsh-duhan/Video-Manager)
+* **Technologies:** Python, JSON
+
+**Key Features:**
+
+* Implements **CRUD** (Create, Read, Update, Delete) operations for video data.
+* Designed and maintains a **JSON-based local database** (`youtube.txt`) for automatic saving and loading of video data.
+
+---
+
+## ** Local Installation (Music Player App)**
+
+To clone and run the featured Django project:
+
+1.  **Clone the Repository:**
+    ```shell
+    git clone [https://github.com/Harsh-duhan/Harsh_duhan_Portfolio.git](https://github.com/Harsh-duhan/Harsh_duhan_Portfolio.git)
+    cd Harsh_duhan_Portfolio 
+    ```
+2.  **Install Dependencies:**
+    ```shell
+    pip install -r requirements.txt
+    ```
+3.  **Run Server Locally:**
+    ```shell
+    python manage.py runserver
+    ```
+    > Access the app at `http://localhost:8000`
+
+---
+
+## **Connect with Me**
+
+| Platform | Link |
+| :--- | :--- |
+| **LinkedIn** | [linkedin.com/in/harshduhan120164/](https://www.linkedin.com/in/harshduhan120164/) |
+| **GitHub** | [github.com/Harsh-duhan](https://github.com/Harsh-duhan) |
+| **Resume** | [View My Resume](https://drive.google.com/file/d/1SVELZhYkH4aInrYAZPjWo4lXEK2L7-C0/view?usp=drivesdk) |
+| **Twitter** | [@Harshduhan\_](https://twitter.com/Harshduhan_) |
+
+***
+
+### **Attribution and License**
+
+The core codebase for the Music Streaming Application was originally developed by **Prerak Raja** and **Varad Bhogayata**.
+
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+ 
+
+ 
