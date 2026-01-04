@@ -1,4 +1,4 @@
-# Personal Portfolio ⚡️ 
+# Personal Portfolio 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
 # Harsh Duhan | Software Developer Portfolio
@@ -28,7 +28,6 @@ I am currently seeking a challenging position that combines my skills in Softwar
 
 A full-stack, feature-rich music streaming web application built using the Django framework.
 
-* **Live Demo:** [https://galvanic-music.herokuapp.com/](https://galvanic-music.herokuapp.com/)
 * **Repository:** [Music Player Source Code](https://github.com/Harsh-duhan/Music_Player/tree/main/music_player)
 * **Technologies:** Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku
 
