@@ -1,17 +1,17 @@
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
+  max-width: 130px;
+  max-height: 130px;
   width: 130px;
   height: 130px;
   overflow: hidden;
   /* display: inline-block; */
-  
-  
+
+
   /* background-size: cover;  */
-  margin: -31px; 
-  margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  margin: -31px;
+  margin-left: -7px;
+  border: 6px solid rgba(0, 77, 64, 0.4);
   border-radius: 50% !important;
 }
 
@@ -26,11 +26,12 @@
   /* visibility: hidden; */
   position: fixed;
   /* margin-inline-end: auto;  */
-  bottom: 0; 
+  bottom: 0;
   right: 0;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 .social {
   margin: 0 auto;
   width: auto;
@@ -117,10 +118,11 @@
   -webkit-border-radius: 5px;
 }
 
-.contactme:hover{
+.contactme:hover {
   color: #00796b;
   background-color: white;
 }
+
 /* main body */
 
 /* body-color */
@@ -245,7 +247,8 @@ ul.side-nav.fixed a {
   padding: 10px 0 12px;
 }
 
-ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
@@ -271,12 +274,14 @@ ul.side-nav.fixed li.logo a {
   line-height: 100%;
 }
 
-ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
+ul.table-of-contents li:not(.logo) a.active,
+ul.table-of-contents li:not(.logo) a:hover {
   background-color: #fafafa;
   border-left: 3px solid;
 }
 
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {
   color: #333 !important;
 }
 
@@ -298,15 +303,15 @@ li.logo span {
 
 h3 {
   font-weight: 200;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-top: 0;
   padding: 30px 40px;
   text-transform: uppercase;
 }
 
 .section {
-  padding-bottom: 30px;
-  padding-top: 0;
+  padding-bottom: 60px;
+  padding-top: 0px;
   position: relative;
 }
 
@@ -373,7 +378,11 @@ h3 {
 }
 
 .card {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+}
+
+#skills .card {
+  margin-bottom: 30px;
 }
 
 .card .role {
@@ -484,17 +493,41 @@ a.hoverline:hover {
 
 #skills h4 {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+}
+
+#skills .row {
+  margin-bottom: 20px;
+}
+
+#skills .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+  padding: 10px;
 }
 
 #skills .col img.responsive-img {
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
   max-height: 100px;
-  padding-bottom: 10px;
+  height: 80px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+#skills .col p {
+  margin: 0;
+  padding-top: 0;
+  font-weight: 500;
+  font-size: 14px;
   text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+  width: 100%;
+  line-height: 1.4;
 }
 
 .card.large .card-content p {
@@ -524,10 +557,63 @@ a.hoverline:hover {
   margin-bottom: 0;
 }
 
+#contact {
+  padding-bottom: 60px;
+  /* display: flex;  -- Removed to fix layout */
+  /* flex-direction: column; -- Removed */
+  /* align-items: center; -- Removed */
+  /* justify-content: center; -- Removed */
+}
+
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center the whole block on the page */
+  justify-content: center;
+  gap: 20px;
+  /* Reduced gap */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact p {
+  margin: 0;
+  display: flex !important;
+  /* Force flex */
+  align-items: center;
+  justify-content: flex-start;
+  /* Align CONTENT to the left of the container */
+  gap: 25px;
+  /* Fixed gap between icon and text */
+  width: 100%;
+  max-width: 400px;
+  /* Constrain width to keep it centered but aligned */
+  padding: 5px 0;
+}
+
+#contact a.btn-floating {
+  margin: 0;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  /* Ensure icon is the anchor point */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #contact a:not(.btn-floating) {
-  bottom: 6px;
-  left: 20px;
-  position: relative;
+  position: static;
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+  /* Slightly larger text */
+  vertical-align: middle;
+  text-align: left;
+  /* Ensure text aligns left */
+  /* min-width: 250px; Remove if not needed, but helps stability */
 }
 
 #experience .col.s12.m2 {
@@ -593,34 +679,42 @@ small {
     padding-left: 0px;
     padding-top: 64px;
   }
+
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
     width: 100%;
   }
+
   nav {
     background: #fff;
     height: 64px;
     position: absolute;
   }
-  nav a.button-collapse, nav a.button-collapse i {
+
+  nav a.button-collapse,
+  nav a.button-collapse i {
     color: #009688;
     height: 56px;
     line-height: 56px;
   }
+
   h3 {
     padding: 20px 30px;
     margin-bottom: 40px;
   }
+
   .container {
     margin: 0 auto;
   }
+
   nav.hide-on-large.only.trigger {
     display: block;
     position: fixed;
     top: 0;
     z-index: 2;
   }
+
   .name-title {
     display: block;
     height: 100%;
@@ -629,25 +723,33 @@ small {
     width: 100%;
     position: absolute;
   }
-  .name-title>span, .name-title>a {
+
+  .name-title>span,
+  .name-title>a {
     position: relative;
     line-height: 20px;
   }
+
   .name-title a {
     font-size: 22px;
     display: block;
   }
+
   .name-title span {
     display: block;
     font-size: 14px;
   }
-  h3, .container {
+
+  h3,
+  .container {
     position: relative;
     top: 64px;
   }
+
   section#intro {
     margin-bottom: -64px;
   }
+
   .card .role {
     position: relative;
     right: initial;
@@ -661,35 +763,56 @@ small {
     line-height: 200%;
     margin: 30px 0 0;
   }
+
   #intro.section .container *:not(span) {
     padding: 0;
   }
+
   .card .card-content .card-title {
     font-size: 20px;
     line-height: 24px;
   }
+
   #experience span.card-title {
     text-align: center;
     display: block;
   }
+
   #experience span.card-title a {
     margin: 0;
   }
+
   i.mdi-navigation-close.right {
     position: relative;
     bottom: 15px;
   }
+
+  #contact .container {
+    align-items: center;
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  #contact p {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
   #contact a:not(.btn-floating) {
     text-align: center;
     display: block;
-    left: initial;
-    bottom: initial;
+    position: static;
+    margin: 0;
+    font-size: 15px;
   }
+
   #contact a.btn-floating.btn-large {
     display: block;
     text-align: center;
     margin: 0 auto;
   }
+
   #intro.section {
     background-position-x: 30%;
   }
