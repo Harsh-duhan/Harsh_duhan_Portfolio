@@ -1,101 +1,69 @@
-# Personal Portfolio 
-> A clean, beautiful, responsive portfolio template for Software Developers!
+# Harsh Duhan | ML & AI Engineer Portfolio
 
-# Harsh Duhan | Software Developer Portfolio
+> Aspiring ML/AI Engineer passionate about building intelligent, real-world AI applications.
 
-Hi, I'm **Harsh Duhan**, a passionate and self-driven software developer.
+## About Me
 
-I enjoy problem-solving and coding, and I am committed to bringing 100% to the work I do. My focus is on backend development and building robust, scalable digital solutions. I am a Master in Computer Application Student at Baba Mastnath University.
+Hi, I'm **Harsh Duhan**, an aspiring Machine Learning and AI Engineer.
 
-I am currently seeking a challenging position that combines my skills in Software Engineering, providing opportunities for professional development and personal growth.
+I build intelligent, real-world AI applications—from training custom machine learning models to deploying scalable, cloud-ready solutions with modern MLOps technologies. I am currently pursuing a Master of Computer Applications (MCA) at Baba Mastnath University with a focus on Artificial Intelligence and Machine Learning. 
+
+My current interests include LLMs, AI Agents, MLOps, and Data Science. I am constantly exploring new technologies and building end-to-end applications to solve real-world problems.
 
 ---
 
-### ** Key Skills and Technologies**
+## 🛠️ Skills & Technologies
 
 | Category | Technologies |
 | :--- | :--- |
-| **Languages** | Python, C, HTML\CSS, JavaScript, Bash |
-| **Databases** | MySQL, MongoDB |
-| **Frameworks** | **Django** (Primary Focus) |
-| **Tools & Cloud**| Git, Github, Docker, AWS, Linux |
+| **Languages** | Python, HTML, CSS, JavaScript |
+| **Databases** | MySQL, SQLite, MongoDB |
+| **Frameworks/Libraries** | FastAPI, Django, Flask, LangChain, LangGraph, NumPy, Pandas, Scikit-learn, Seaborn |
+| **Tools & Cloud** | Git, GitHub, Docker, AWS, Vercel |
+| **Currently Exploring** | MLOps, AI Agents, LLMs, RAG, Cloud Computing |
 
 ---
 
-## **Featured Projects**
+## 🚀 Featured Projects
 
-### **1. Galvanic Music Player Web App**
+### 1. Ceres AI
+An end-to-end satellite remote sensing and machine learning pipeline that processes Sentinel-2 imagery through an optimized SVM classifier to generate high-resolution crop health maps.
+* **Technologies:** Python, Gen-AI, Machine Learning, Satellite Remote Sensing, SVM
+* **Links:** [Source Code](https://github.com/Harsh-duhan/Ceres-AI) | [DockerHub](https://hub.docker.com/repository/docker/harshduhan/ceres-ai/general)
 
-A full-stack, feature-rich music streaming web application built using the Django framework.
+### 2. Movie Recommendation System
+A deploy-ready FastAPI app that serves a content-based movie recommendation API and a polished web UI. Content-based similarity from genres, keywords, lead cast, and director.
+* **Technologies:** Python, Machine Learning, FastAPI, Web UI, K-Nearest Neighbours
+* **Links:** [Source Code](https://github.com/Harsh-duhan/Movie_Recommendation_System) | [Live App](https://movie-recommendation-system-theta-henna.vercel.app/) | [DockerHub](https://hub.docker.com/repository/docker/harshduhan/the-movie-recommender/general)
 
-* **Repository:** [Music Player Source Code](https://github.com/Harsh-duhan/Music_Player/tree/main/music_player)
-* **Technologies:** Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku
+### 3. Duhan Designs
+A design template marketplace where businesses browse, purchase, and download premium branding kits and website designs with a seamless payment-ready checkout flow.
+* **Technologies:** Python, HTML, CSS, JavaScript, Django, MySQL
+* **Links:** [Source Code](https://github.com/Harsh-duhan/Duhan-Designs) | [Live App](https://duhan-designs.vercel.app)
 
-**Key Features:**
+### 4. Customer Churn Prediction
+Predicting customer churn with machine learning. A smart data analytics web application that uses advanced predictive modeling to forecast customer behaviour.
+* **Technologies:** Python, Machine Learning, Logistic Regression, Flask API
+* **Links:** [Source Code](https://github.com/Harsh-duhan/Customer-Churn-Predictor) | [Live App](https://customer-churn-predictor-eosin.vercel.app/) | [DockerHub](https://hub.docker.com/repository/docker/harshduhan/customer_churn/general)
 
-* Secure **Google OAuth** and standard user SignUp/SignIn.
-* Dynamic functionality to play songs and view detailed information.
-* Advanced search and filtering of songs based on **language** and **singer**.
-* Personalized content management (create/manage playlists, add/remove favorites).
-* Tracks and displays **recently played/viewed songs**.
-
-#### *Project Preview*
-| Home Page | Detail Page |
-| :---: | :---: |
-| <img src="website_images/Home.png" width="400"> | <img src="website_images/Detail.png" width="400"> |
-
-### **2. Video Manager (CLI Application)**
-
-A Command-Line-Interface application built with Python to manage videos locally.
-
-* **Repository:** [Video Manager Source Code](https://github.com/Harsh-duhan/Video-Manager)
-* **Technologies:** Python, JSON
-
-**Key Features:**
-
-* Implements **CRUD** (Create, Read, Update, Delete) operations for video data.
-* Designed and maintains a **JSON-based local database** (`youtube.txt`) for automatic saving and loading of video data.
+### 5. Credit Card Fraud Detection
+An optimized Machine Learning project using Decision Trees and RandomizedSearchCV to detect fraudulent transactions in highly imbalanced datasets.
+* **Technologies:** Python, Decision Trees, Machine Learning
+* **Links:** [Source Code](https://github.com/Harsh-duhan/Credit-Card-Fraud-Detection) | [DockerHub](https://hub.docker.com/repository/docker/harshduhan/credit_card_fraud_detection/general)
 
 ---
 
-## ** Local Installation (Music Player App)**
+## 🎓 Education
 
-To clone and run the featured Django project:
-
-1.  **Clone the Repository:**
-    ```shell
-    git clone [https://github.com/Harsh-duhan/Harsh_duhan_Portfolio.git](https://github.com/Harsh-duhan/Harsh_duhan_Portfolio.git)
-    cd Harsh_duhan_Portfolio 
-    ```
-2.  **Install Dependencies:**
-    ```shell
-    pip install -r requirements.txt
-    ```
-3.  **Run Server Locally:**
-    ```shell
-    python manage.py runserver
-    ```
-    > Access the app at `http://localhost:8000`
+* **Master of Computer Applications (MCA)** - *Baba Mastnath University* (2025 – 2027)
+  * Specialization in: Data Science and Machine Learning
+* **Bachelor of Computer Applications (BCA)** - *Maharshi Dayanand University* (2022 – 2025)
 
 ---
 
-## **Connect with Me**
+## 📫 Connect with Me
 
-| Platform | Link |
-| :--- | :--- |
-| **LinkedIn** | [linkedin.com/in/harshduhan120164/](https://www.linkedin.com/in/harshduhan120164/) |
-| **GitHub** | [github.com/Harsh-duhan](https://github.com/Harsh-duhan) |
-| **Resume** | [View My Resume](https://drive.google.com/file/d/1SVELZhYkH4aInrYAZPjWo4lXEK2L7-C0/view?usp=drivesdk) |
-| **Twitter** | [@Harshduhan\_](https://twitter.com/Harshduhan_) |
-
-***
-
-### **Attribution and License**
-
-The core codebase for the Music Streaming Application was originally developed by **Prerak Raja** and **Varad Bhogayata**.
-
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
- 
-
- 
+* **Email:** [workspaceduhan@gmail.com](mailto:workspaceduhan@gmail.com)
+* **LinkedIn:** [linkedin.com/in/harsh-duhan](https://www.linkedin.com/in/harsh-duhan/)
+* **GitHub:** [github.com/Harsh-duhan](https://github.com/Harsh-duhan)
+* **Resume:** [View My Resume](https://drive.google.com/file/d/13rvYoMC9OahKdQIAin7yRtFaUzFbI5X2/view?usp=drivesdk)
