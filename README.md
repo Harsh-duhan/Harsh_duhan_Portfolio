@@ -12,28 +12,28 @@ My current interests include LLMs, AI Agents, MLOps, and Data Science. I am cons
 
 ---
 
-## 🛠️ Skills & Technologies
+##  Skills & Technologies
 
 | Category | Technologies |
 | :--- | :--- |
 | **Languages** | Python, HTML, CSS, JavaScript |
 | **Databases** | MySQL, SQLite, MongoDB |
-| **Frameworks/Libraries** | FastAPI, Django, Flask, LangChain, LangGraph, NumPy, Pandas, Scikit-learn, Seaborn |
+| **Frameworks/Libraries** | FastAPI, Flask, LangChain, LangGraph, NumPy, Pandas, Scikit-learn, Seaborn |
 | **Tools & Cloud** | Git, GitHub, Docker, AWS, Vercel |
 | **Currently Exploring** | MLOps, AI Agents, LLMs, RAG, Cloud Computing |
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 ### 1. Ceres AI
 An end-to-end satellite remote sensing and machine learning pipeline that processes Sentinel-2 imagery through an optimized SVM classifier to generate high-resolution crop health maps.
 * **Technologies:** Python, Gen-AI, Machine Learning, Satellite Remote Sensing, SVM
 * **Links:** [Source Code](https://github.com/Harsh-duhan/Ceres-AI) | [DockerHub](https://hub.docker.com/repository/docker/harshduhan/ceres-ai/general)
 
-### 2. Movie Recommendation System
-A deploy-ready FastAPI app that serves a content-based movie recommendation API and a polished web UI. Content-based similarity from genres, keywords, lead cast, and director.
-* **Technologies:** Python, Machine Learning, FastAPI, Web UI, K-Nearest Neighbours
+### 2. AI-Powered Movie Recommendation System
+A full-stack movie recommendation application that combines content-based machine learning recommendations with a LangChain-powered movie knowledge agent. Search for a movie, discover similar titles, and ask the AI agent natural-language questions about movies, web series, actors, directors, genres, plots, and recommendations.
+* **Technologies:** Python, Machine Learning, FastAPI, Web UI, K-Nearest Neighbours, LangChain, LLM
 * **Links:** [Source Code](https://github.com/Harsh-duhan/Movie_Recommendation_System) | [Live App](https://movie-recommendation-system-theta-henna.vercel.app/) | [DockerHub](https://hub.docker.com/repository/docker/harshduhan/the-movie-recommender/general)
 
 ### 3. Duhan Designs
@@ -53,17 +53,17 @@ An optimized Machine Learning project using Decision Trees and RandomizedSearchC
 
 ---
 
-## 🎓 Education
+##  Education
 
 * **Master of Computer Applications (MCA)** - *Baba Mastnath University* (2025 – 2027)
-  * Specialization in: Data Science and Machine Learning
+  * Specialization in: Artificial Intelligence and Machine Learning
 * **Bachelor of Computer Applications (BCA)** - *Maharshi Dayanand University* (2022 – 2025)
 
 ---
 
-## 📫 Connect with Me
+##  Connect with Me
 
 * **Email:** [workspaceduhan@gmail.com](mailto:workspaceduhan@gmail.com)
 * **LinkedIn:** [linkedin.com/in/harsh-duhan](https://www.linkedin.com/in/harsh-duhan/)
 * **GitHub:** [github.com/Harsh-duhan](https://github.com/Harsh-duhan)
-* **Resume:** [View My Resume](https://drive.google.com/file/d/13rvYoMC9OahKdQIAin7yRtFaUzFbI5X2/view?usp=drivesdk)
+* **Resume:** [View My Resume](https://drive.google.com/file/d/1AZJfRqKa249-UxV9i4FP1IxjTr329wkp/view?usp=drivesdk)
