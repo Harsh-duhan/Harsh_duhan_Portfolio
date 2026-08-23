@@ -17,7 +17,7 @@ My current interests include LLMs, AI Agents, MLOps, and Data Science. I am cons
 | Category | Technologies |
 | :--- | :--- |
 | **Languages** | Python, HTML, CSS, JavaScript |
-| **Databases** | MySQL, SQLite, MongoDB |
+| **Databases** | MySQL, MongoDB |
 | **Frameworks/Libraries** | FastAPI, Flask, LangChain, LangGraph, NumPy, Pandas, Scikit-learn, Seaborn |
 | **Tools & Cloud** | Git, GitHub, Docker, AWS, Vercel |
 | **Currently Exploring** | MLOps, AI Agents, LLMs, RAG, Cloud Computing |
